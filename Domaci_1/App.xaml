@@ -1,0 +1,17 @@
+﻿<Application x:Class="Domaci_1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Domaci_1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="FadeBar" UriSource="Assets\FadeBar.png"></BitmapImage>
+            <BitmapImage x:Key="FadeBarBottom" UriSource="Assets\FadeBarBottom.png"></BitmapImage>
+            <BitmapImage x:Key="GreyBarC" UriSource="Assets\GreyBarC.png"></BitmapImage>
+            <BitmapImage x:Key="LoadBar" UriSource="Assets\LoadBar.png"></BitmapImage>
+            <BitmapImage x:Key="logo" UriSource="Assets\logo.png"></BitmapImage>
+            <BitmapImage x:Key="pozadina" UriSource="Assets\pozadina.jpg"></BitmapImage>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
